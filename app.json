@@ -1,0 +1,38 @@
+{
+  "name": "IstkharShiv",
+  "description": "IstkharShiv Telegram music bot",
+  "repository": "https://github.com/TEAM-ISTKHAR/IstkharShiv",
+  "keywords": [
+    "golang",
+    "telegram",
+    "music-bot",
+    "IstkharShiv"
+  ],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID from my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API hash from my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram bot token from BotFather",
+      "required": true
+    },
+    "MONGO_DB_URI": {
+      "description": "MongoDB connection string for persistent bot state",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Telegram numeric owner ID",
+      "required": true
+    },
+    "LOGGER_ID": {
+      "description": "Optional Telegram log chat ID",
+      "required": false
+    }
+  },
+  "stack": "container"
+}

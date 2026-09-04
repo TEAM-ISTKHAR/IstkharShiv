@@ -1,0 +1,9 @@
+.env
+*.log
+log.txt
+downloads/
+cache/
+playback/
+tmp/
+istkharshiv
+shivmusic_bot

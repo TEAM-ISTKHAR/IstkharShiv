@@ -1,0 +1,10 @@
+.git
+.github
+.env
+*.log
+log.txt
+downloads
+cache
+playback
+audit
+tmp
