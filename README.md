@@ -4,6 +4,14 @@ Production-ready Telegram music bot written in Go. The repository includes one
 runtime, one Docker image, a Heroku worker definition, and a Railway deployment
 definition so the same build runs consistently on both platforms.
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TEAM-ISTKHAR/IstkharShiv)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template)
+
+**Heroku:** click the button above to open the one-click deploy flow using
+`app.json`. **Railway:** click the button above, choose **Deploy from GitHub
+repo**, select `TEAM-ISTKHAR/IstkharShiv`, and add the variables from
+`sample.env`.
+
 ## Runtime requirements
 
 - Go 1.25+ for local builds
